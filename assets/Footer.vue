@@ -1,5 +1,12 @@
 <template>
   <footer class="footer">
+    <!-- 新增项目链接部分 -->
+    <div class="project-links">
+      <a :href="homeUrl" target="_blank">Home</a>
+      <a :href="blogUrl" target="_blank">Blog</a>
+      <a :href="githubUrl" target="_blank">GitHub</a>
+      <a :href="'mailto:' + emailUrl">Contact</a>
+    </div>
     
     <div class="stats">
       访问次数：<span id="vercount_value_site_pv">😯</span>次 | 访客人数：<span id="vercount_value_site_uv">😯</span>人
