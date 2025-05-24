@@ -17,7 +17,8 @@ export default {
   name: "Footer",
   data() {
     return {
-      blogUrl: "https://taiyanglee.eu.org/",
+      homeUrl: "https://taiyanglee.eu.org/",
+      blogUrl: "https://boke.taiyanglee.eu.org/",
       githubUrl: "https://github.com/sljfcnjdfh",
       emailUrl: "aclll@taiyanglee.eu.org"
     };
