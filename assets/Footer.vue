@@ -2,8 +2,6 @@
   <footer class="footer">
     <!-- 新增项目链接部分 -->
     <div class="project-links">
-      <a :href="homeUrl" target="_blank">Home</a>
-      <a :href="blogUrl" target="_blank">Blog</a>
       <a :href="githubUrl" target="_blank">GitHub</a>
       <a :href="'mailto:' + emailUrl">Contact</a>
     </div>
@@ -24,10 +22,8 @@ export default {
   name: "Footer",
   data() {
     return {
-      homeUrl: "https://taiyanglee.eu.org/",
-      blogUrl: "https://boke.taiyanglee.eu.org/",
       githubUrl: "https://github.com/sljfcnjdfh",
-      emailUrl: "aclll@taiyanglee.eu.org"
+      emailUrl: "admin@jianyuan.eu.org"
     };
   }
 };
